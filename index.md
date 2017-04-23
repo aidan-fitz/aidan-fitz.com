@@ -6,6 +6,8 @@
 
 Hey, what's up? My name is Aidan Fitzgerald, and I'm a Peer Advisor at the Cornell University College of Engineering (Class of 2020). I'm a Computer Science major with an intended minor in Electrical and Computer Engineering.
 
+_I am a: guy/dude &bull; Pronouns: he/him/his_
+
 You can download my r&#233;sum&#233; [here](/Resume.pdf). Questions? Email me at acf67 AT my university's website.
 
 ## 9 Facts About Me
