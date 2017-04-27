@@ -1,5 +1,3 @@
-# Aidan Fitzgerald
-
 ![](/480px-portrait.jpg)
 
 <p style="color: gray;">Outside the Human Ecology building. (Photo credit: Cathy Xie)</p>
@@ -10,7 +8,7 @@ _I am a: guy/dude &bull; Pronouns: he/him/his_
 
 You can download my r&#233;sum&#233; [here](/Resume.pdf). Questions? Email me at acf67 AT my university's website.
 
-## 9 Facts About Me
+# 9 Facts About Me
 
 1. I'm the Executive Director of [Social Hacks](http://socialhacks.tech/), a hackathon that teaches and inspires students to use technology for social good. Our next hackathon is planned for some time in spring 2018; you should check it out!
 2. I've taught two classes for [Splash! at Cornell](https://cornell.learningu.org/learn/index.html): "Introduction to Copyright Law" in fall 2016 and "Designing Technology for Social Impact" in spring 2017.
