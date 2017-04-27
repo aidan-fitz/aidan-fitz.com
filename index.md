@@ -25,5 +25,3 @@ You can download my r&#233;sum&#233; [here](/Resume.pdf). Questions? Email me at
 <!--
 I am passionate about finding ways to use information and communications technology to make our society more sustainable, peaceful, and just. I believe climate change, global extreme poverty, and discrimination and violence against women are the most pressing issues of our time.
 -->
-
-<p style="color: gray;">Copyright &copy; 2017 Aidan Fitzgerald. All rights reserved.</p>
