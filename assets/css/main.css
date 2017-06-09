@@ -3035,6 +3035,7 @@
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
+			/* Image courtesy of Erik Heddema / Unsplash: https://unsplash.com/collections/1243/cities?photo=7qheceNIy7k */
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../images/42-st.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
@@ -4191,9 +4192,9 @@
 		}
 
 	#copyright {
-		color: #ffffff;
+		/* color: #ffffff; */
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		/* color: rgba(255, 255, 255, 0.25); */
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
