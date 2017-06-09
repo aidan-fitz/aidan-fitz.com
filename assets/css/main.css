@@ -2448,6 +2448,13 @@
 			width: 100%;
 		}
 
+			/*.image.fit:before {
+				content: ' ';
+			    display: inline-block;
+			    vertical-align: middle;  /* vertical alignment of the inline element */
+    		/*	height: 100%;
+			}*/
+
 			.image.fit:first-child {
 				margin-top: 0;
 			}
