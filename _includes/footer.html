@@ -1,0 +1,18 @@
+<footer>
+{% if site.copyright %}
+  <p>
+    &copy;
+    {% if site.copyright.pub_year %}{% site.copyright.pub_year %}{% endif %}
+    {% if site.copyright.author %}
+      by {% site.copyright.author %}
+    {% endif %}
+  </p>
+
+  {% comment %}
+    <!-- TODO add CC license functionality -->
+    {% if site.copyright.license %}
+
+    {% endif %}
+  {% endcomment %}
+{% endif %}
+</footer>
