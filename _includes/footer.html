@@ -2,9 +2,9 @@
 {% if site.copyright %}
   <p>
     &copy;
-    {% if site.copyright.pub_year %}{% site.copyright.pub_year %}{% endif %}
+    {% if site.copyright.pub_year %}{{ site.copyright.pub_year }}{% endif %}
     {% if site.copyright.author %}
-      by {% site.copyright.author %}
+      by {{ site.copyright.author }}
     {% endif %}
   </p>
 
