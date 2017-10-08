@@ -2,7 +2,7 @@ title: Aidan Fitzgerald
 description: Computer Science, Cornell Engineering Class of 2020
 
 # Imports from https://github.com/pages-themes/architect. We're gonna customize it.
-theme: jekyll-theme-architect
+# theme: jekyll-theme-architect
 
 github:
   is_project_page: false
