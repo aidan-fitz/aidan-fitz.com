@@ -4,8 +4,9 @@ description: Computer Science, Cornell Engineering Class of 2020
 # Imports from https://github.com/pages-themes/architect. We're gonna customize it.
 # theme: jekyll-theme-architect
 
-github:
-  is_project_page: false
+#github:
+#  url: https://github.com/aidan-fitz/aidan-fitz.com
+#  is_project_page: false
 
 copyright:
   pub_year: 2017
