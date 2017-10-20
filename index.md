@@ -5,7 +5,13 @@ title: Home
 
 <div class="jumbotron">
   <h1 class="display-1">Hi, I'm Aidan.</h1>
-  <p class="lead">I go to Cornell and I'm a CS major. Pleased to meet you!</p>
+  <p class="lead">I'm passionate about using computer science and technology to
+  make the world a healthy, inclusive, and sustainable place for everyone.</p>
+
+  <p>I'm a sophomore at Cornell University pursuing a major in Computer Science
+  and a minor in Electrical and Computer Engineering. I direct the CS+Social Good
+  club at Cornell, and I am also involved with Women in Computing at Cornell
+  (WICC), Splash! at Cornell, and Engineering Peer Advising.</p>
 
   {% include social.html %}
 </div>
