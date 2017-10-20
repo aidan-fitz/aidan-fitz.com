@@ -8,10 +8,18 @@ title: Home
   <p class="lead">I'm passionate about using computer science and technology to
   make the world a healthy, inclusive, and sustainable place for everyone.</p>
 
-  <p>I'm a sophomore at Cornell University pursuing a major in Computer Science
-  and a minor in Electrical and Computer Engineering. I direct the CS+Social Good
-  club at Cornell, and I am also involved with Women in Computing at Cornell
-  (WICC), Splash! at Cornell, and Engineering Peer Advising.</p>
+  <p>I'm a Cornell student pursuing a major in Computer Science and a minor in
+  Electrical and Computer Engineering. My academic interests include machine
+  learning and computer systems. Outside of classes, I direct the CS+Social Good
+  club at Cornell, and I am involved with Women in Computing at Cornell (WICC),
+  Splash! at Cornell, and Engineering Peer Advising.</p>
+
+  <a href="Resume.pdf">
+    <button type="button" class="btn btn-primary download-resume">
+      <i class="fa fa-download" aria-hidden="true"></i>
+      Download My Résumé
+    </button>
+  </a>
 
   {% include social.html %}
 </div>
