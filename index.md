@@ -14,14 +14,7 @@ title: Home
   club at Cornell, and I am involved with Women in Computing at Cornell (WICC),
   Splash! at Cornell, and Engineering Peer Advising.</p>
 
-  <a href="Resume.pdf">
-    <button type="button" class="btn btn-primary download-resume">
-      <i class="fa fa-download" aria-hidden="true"></i>
-      Download My Résumé
-    </button>
-  </a>
-
-  {% include social.html %}
+  {% include resume-social.html %}
 </div>
 
 # Hacktoberfest
