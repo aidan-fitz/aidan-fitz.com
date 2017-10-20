@@ -1,0 +1,15 @@
+- icon: linkedin
+  name: LinkedIn
+  url: https://www.linkedin.com/in/aidan-fitz
+- icon: github
+  name: GitHub
+  url: https://github.com/aidan-fitz
+- icon: medium
+  name: Medium
+  url: https://medium.com/@fitzTheDreamer
+- icon: flickr
+  name: Flickr
+  url: https://www.flickr.com/photos/itsaidanfitz/
+- icon: envelope
+  name: Email Me
+  url: mailto:acf67@cornell.edu
