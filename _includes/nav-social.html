@@ -1,0 +1,9 @@
+<ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+  {% for link in site.data.social %}
+    <li class="nav-item">
+        <a class="nav-link" href="{{link.url}}" title="{{link.name}}" target="_blank">
+            <i class="fa fa-{{link.icon}}" aria-hidden="true"></i>
+        </a>
+    </li>
+  {% endfor %}
+</ul>

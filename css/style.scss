@@ -1,6 +1,18 @@
 ---
 ---
 
+nav {
+  background-color: black;
+}
+
+nav a.nav-link {
+  color: white;
+}
+
+nav a.nav-link:active {
+  text-decoration: underline;
+}
+
 .social {
   font-size: 200%;
 }
