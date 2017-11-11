@@ -34,9 +34,10 @@ body {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
+/*  position: absolute;
+  bottom: 0; */
   width: 100%;
+  margin-top: 60px;
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
@@ -47,4 +48,8 @@ footer {
 .gradient-bg {
   background: linear-gradient(#2758A5, #CC004E);
   color: white;
+}
+
+section {
+  padding: 50px;
 }

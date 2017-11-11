@@ -6,7 +6,7 @@ title: Home
 <section id="top" class="gradient-bg">
   <h1 class="text-center text-white">Aidan Fitzgerald</h1>
 
-  <img class="img-thumbnail rounded-circle mx-auto d-block" src="480px-portrait.jpg">
+  <img class="img-thumbnail rounded-circle mx-auto d-block" src="photo.jpg" width="400" alt="&copy; Jane Wong">
 </section>
 
 <h1 class="display-1">Hi, I'm Aidan.</h1>
@@ -20,7 +20,3 @@ club at Cornell, and I am involved with Women in Computing at Cornell (WICC),
 Splash! at Cornell, and Engineering Peer Advising.</p>
 
 {% include resume-social.html %}
-
-<section class="gradient-bg">
-  <h1 class="display-1">yo this is a cool gradient</h1>
-</section>
