@@ -1,25 +1,12 @@
-<footer class="container">
-{% if site.copyright %}
-  <div class="row">
-    <div class="col-md text-center">
-      &copy;
-      {% if site.copyright.pub_year %}{{ site.copyright.pub_year }}{% endif %}
-      {% if site.copyright.author %}
-        by {{ site.copyright.author }}
-      {% endif %}
-    </div>
-  </div>
-
-  {% comment %}
-  <div class="row">
-    <div class="col-md text-center">
-
-    <!-- TODO add CC license functionality -->
-    {% if site.copyright.license %}
-
+<footer>
+  <div class="container">
+    {% if site.copyright %}
+      <span class="text-muted">
+        &copy;
+        {% if site.copyright.pub_year %}{{ site.copyright.pub_year }}{% endif %}
+        {% if site.copyright.author %}{{ site.copyright.author }}{% endif %}.
+        All rights reserved.
+      </span>
     {% endif %}
-    </div>
   </div>
-  {% endcomment %}
-{% endif %}
 </footer>
