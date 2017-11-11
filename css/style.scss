@@ -14,7 +14,7 @@ nav a.nav-link:active {
 }
 
 body {
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 .social {
@@ -44,9 +44,23 @@ footer {
   background-color: #f5f5f5;
 }
 
+// Gradient mixin that supports all browsers
+@mixin gradient($color1, $color2) {
+  background: $color1;                                   // For browsers that do not support gradients
+  background: -webkit-linear-gradient($color1, $color2); // For Safari 5.1 to 6.0
+  background: -o-linear-gradient($color1, $color2);      // For Opera 11.1 to 12.0
+  background: -moz-linear-gradient($color1, $color2);    // For Firefox 3.6 to 15
+  background: linear-gradient($color1, $color2);         // Standard syntax
+}
+
 // For sections with the gradient background
 .gradient-bg {
-  background: linear-gradient(#2758A5, #CC004E);
+  @include gradient(#2758A5, #CC004E);
+  color: white;
+}
+
+.black-bg {
+  background-color: black;
   color: white;
 }
 
