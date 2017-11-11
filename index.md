@@ -3,6 +3,12 @@ layout: default
 title: Home
 ---
 
+<section id="top" class="gradient-bg">
+  <h1 class="text-center text-white">Aidan Fitzgerald</h1>
+
+  <img class="img-thumbnail rounded-circle mx-auto d-block" src="480px-portrait.jpg">
+</section>
+
 <h1 class="display-1">Hi, I'm Aidan.</h1>
 <p class="lead">I'm passionate about using computer science and technology to
 make the world a healthy, inclusive, and sustainable place for everyone.</p>
