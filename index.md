@@ -22,7 +22,9 @@ title: Home
     club at Cornell, and I am involved with Women in Computing at Cornell (WICC),
     Splash! at Cornell, and Engineering Peer Advising.</p>
 
+    {% include resume-dl.html %}
+
   </main>
 </section>
 
-{% include resume-social.html %}
+{% comment %} {% include resume-social.html %}{% endcomment %}
