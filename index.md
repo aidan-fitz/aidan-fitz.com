@@ -6,7 +6,9 @@ title: Home
 <section id="top" class="gradient-bg">
   <h1 class="text-center">Aidan Fitzgerald</h1>
 
-  <img class="img-thumbnail rounded-circle mx-auto d-block" src="photo.jpg" width="400" alt="&copy; Jane Wong">
+  <img class="img-thumbnail rounded-circle mx-auto d-block profile-photo" src="photo.jpg" alt="&copy; Jane Wong">
+
+  {% include social.html %}
 </section>
 
 <section id="about" class="black-bg">

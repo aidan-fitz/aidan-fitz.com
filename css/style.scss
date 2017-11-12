@@ -20,14 +20,15 @@ body {
 
 .social {
   font-size: 200%;
+  word-spacing: 0.35em;
 }
 
 .social a:link, .social a:visited {
-  color: black;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .social a:active, .social a:hover {
-  color: #444;
+  color: white;
 }
 
 .download-resume {
@@ -68,4 +69,11 @@ footer {
 
 section {
   padding: 50px;
+}
+
+.profile-photo {
+  // TODO figure out RubyGems Bootstrap so we can import:
+  // .img-thumbnail .rounded-circle .mx-auto .d-block
+  width: 400px;
+  margin: 30px;
 }
