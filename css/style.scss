@@ -1,5 +1,7 @@
 ---
 ---
+// Change this Google Fonts import as necessary
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
 
 nav {
   background-color: black;
@@ -16,6 +18,7 @@ nav a.nav-link:active {
 body {
   padding-top: 3rem;
   background-color: black;
+  font-family: Montserrat; // play around with this
 }
 
 .social {
