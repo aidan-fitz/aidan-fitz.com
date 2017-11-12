@@ -16,7 +16,6 @@ nav a.nav-link:active {
 }
 
 body {
-  padding-top: 3rem;
   background-color: black;
   font-family: Montserrat; // play around with this
 }
@@ -72,6 +71,10 @@ footer {
 
 section {
   padding: 50px;
+}
+
+#top {
+  padding-top: 75px;
 }
 
 .profile-photo {
