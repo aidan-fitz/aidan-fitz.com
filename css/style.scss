@@ -3,6 +3,11 @@
 // Change this Google Fonts import as necessary
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
 
+@font-face {
+  font-family: "D-DIN";
+  src: url('/fonts/D-DIN.otf') format("otf");
+}
+
 nav {
   background-color: black;
 }
@@ -17,7 +22,11 @@ nav a.nav-link:active {
 
 body {
   background-color: black;
-  font-family: Montserrat; // play around with this
+  font-family: "D-DIN"; // play around with this
+}
+
+h1, h2 {
+  font-family: "Montserrat";
 }
 
 .social {
