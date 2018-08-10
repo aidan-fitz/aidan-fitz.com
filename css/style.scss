@@ -1,11 +1,16 @@
 ---
 ---
 // Change this Google Fonts import as necessary
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
 @font-face {
   font-family: "D-DIN";
-  src: url('/fonts/D-DIN.otf') format("otf");
+  src: url('/fonts/D-DIN.woff2') format('woff2'),
+       url('/fonts/D-DIN.woff') format('woff'),
+       url('/fonts/D-DIN.otf') format('opentype'),
+       url('/fonts/D-DIN.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 nav {
@@ -22,11 +27,11 @@ nav a.nav-link:active {
 
 body {
   background-color: black;
-  font-family: "D-DIN"; // play around with this
+  font-family: "D-DIN", sans-serif; // play around with this
 }
 
 h1, h2 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 .social {
