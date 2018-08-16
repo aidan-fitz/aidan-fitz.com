@@ -11,3 +11,6 @@ description: Computer Science, Cornell Engineering Class of 2020
 copyright:
   pub_year: 2018
   author: Aidan Fitzgerald
+
+sass:
+    sass_dir: css/_sass

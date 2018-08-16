@@ -1,17 +1,7 @@
 ---
 ---
-// Change this Google Fonts import as necessary
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
-
-@font-face {
-  font-family: "D-DIN";
-  src: url('/fonts/D-DIN.woff2') format('woff2'),
-       url('/fonts/D-DIN.woff') format('woff'),
-       url('/fonts/D-DIN.otf') format('opentype'),
-       url('/fonts/D-DIN.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+@import 'bg';
+@import 'fonts';
 
 nav {
   background-color: black;
@@ -61,32 +51,6 @@ footer {
   line-height: 60px; /* Vertically center the text there */
   background-color: black;
   color: white;
-}
-
-// Gradient mixin that supports all browsers
-@mixin gradient($dir, $color1, $color2) {
-  background: $color1;                                   // For browsers that do not support gradients
-  background: -webkit-linear-gradient($dir, $color1, $color2); // For Safari 5.1 to 6.0
-  background: -o-linear-gradient($dir, $color1, $color2);      // For Opera 11.1 to 12.0
-  background: -moz-linear-gradient($dir, $color1, $color2);    // For Firefox 3.6 to 15
-  background: linear-gradient($dir, $color1, $color2);         // Standard syntax
-}
-
-// For sections with the gradient background
-%gradient-bg {
-  // Autotask colors for now (https://www.datto.com/brand/)
-  @include gradient(to bottom right, #d21f2d, #f64535);
-  color: white;
-}
-
-%black-bg {
-  background-color: black;
-  color: white;
-}
-
-%white-bg {
-  background-color: white;
-  color: black;
 }
 
 section {
