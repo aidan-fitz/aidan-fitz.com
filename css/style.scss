@@ -64,26 +64,27 @@ footer {
 }
 
 // Gradient mixin that supports all browsers
-@mixin gradient($color1, $color2) {
+@mixin gradient($dir, $color1, $color2) {
   background: $color1;                                   // For browsers that do not support gradients
-  background: -webkit-linear-gradient($color1, $color2); // For Safari 5.1 to 6.0
-  background: -o-linear-gradient($color1, $color2);      // For Opera 11.1 to 12.0
-  background: -moz-linear-gradient($color1, $color2);    // For Firefox 3.6 to 15
-  background: linear-gradient($color1, $color2);         // Standard syntax
+  background: -webkit-linear-gradient($dir, $color1, $color2); // For Safari 5.1 to 6.0
+  background: -o-linear-gradient($dir, $color1, $color2);      // For Opera 11.1 to 12.0
+  background: -moz-linear-gradient($dir, $color1, $color2);    // For Firefox 3.6 to 15
+  background: linear-gradient($dir, $color1, $color2);         // Standard syntax
 }
 
 // For sections with the gradient background
-.gradient-bg {
-  @include gradient(#2758A5, #CC004E);
+%gradient-bg {
+  // Autotask colors for now (https://www.datto.com/brand/)
+  @include gradient(to bottom right, #d21f2d, #f64535);
   color: white;
 }
 
-.black-bg {
+%black-bg {
   background-color: black;
   color: white;
 }
 
-.white-bg {
+%white-bg {
   background-color: white;
   color: black;
 }
@@ -92,8 +93,17 @@ section {
   padding: 50px;
 }
 
+// nav {
+//   @extend 
+// }
+
 #top {
+  @extend %gradient-bg;
   padding-top: 100px;
+}
+
+#about {
+  @extend %white-bg;
 }
 
 .profile-photo {
