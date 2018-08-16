@@ -16,7 +16,7 @@ nav a.nav-link:active {
 }
 
 body {
-  background-color: black;
+  @extend %white-bg;
   font-family: "D-DIN", sans-serif; // play around with this
 }
 
@@ -62,8 +62,9 @@ section {
 // }
 
 #top {
-  @extend %gradient-bg;
-  padding-top: 100px;
+  @extend %white-bg;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 #about {
