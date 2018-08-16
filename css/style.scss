@@ -29,12 +29,16 @@ h1, h2 {
   word-spacing: 0.35em;
 }
 
+.social a {
+  color: black;
+}
+
 .social a:link, .social a:visited {
-  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
 }
 
 .social a:active, .social a:hover {
-  color: white;
+  opacity: 1;
 }
 
 .download-resume {
