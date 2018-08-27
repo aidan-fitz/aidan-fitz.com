@@ -1,20 +1,12 @@
 ---
 ---
-// Change this Google Fonts import as necessary
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import 'bg';
+@import 'fonts';
 
-@font-face {
-  font-family: "D-DIN";
-  src: url('/fonts/D-DIN.woff2') format('woff2'),
-       url('/fonts/D-DIN.woff') format('woff'),
-       url('/fonts/D-DIN.otf') format('opentype'),
-       url('/fonts/D-DIN.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+$chrome-color: #444444;
 
 nav {
-  background-color: black;
+  background-color: $chrome-color;
 }
 
 nav a.nav-link {
@@ -26,8 +18,8 @@ nav a.nav-link:active {
 }
 
 body {
-  background-color: black;
-  font-family: "D-DIN", sans-serif; // play around with this
+  @extend %white-bg;
+  font-family: "D-DIN Expanded", sans-serif; // play around with this
 }
 
 h1, h2 {
@@ -39,16 +31,21 @@ h1, h2 {
   word-spacing: 0.35em;
 }
 
+.social a {
+  color: black;
+}
+
 .social a:link, .social a:visited {
-  color: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
 }
 
 .social a:active, .social a:hover {
-  color: white;
+  opacity: 1;
 }
 
 .download-resume {
   font-size: 125%;
+  background-color: $chrome-color;
 }
 
 footer {
@@ -59,41 +56,24 @@ footer {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
-  background-color: black;
+  background-color: $chrome-color;
   color: white;
-}
-
-// Gradient mixin that supports all browsers
-@mixin gradient($color1, $color2) {
-  background: $color1;                                   // For browsers that do not support gradients
-  background: -webkit-linear-gradient($color1, $color2); // For Safari 5.1 to 6.0
-  background: -o-linear-gradient($color1, $color2);      // For Opera 11.1 to 12.0
-  background: -moz-linear-gradient($color1, $color2);    // For Firefox 3.6 to 15
-  background: linear-gradient($color1, $color2);         // Standard syntax
-}
-
-// For sections with the gradient background
-.gradient-bg {
-  @include gradient(#2758A5, #CC004E);
-  color: white;
-}
-
-.black-bg {
-  background-color: black;
-  color: white;
-}
-
-.white-bg {
-  background-color: white;
-  color: black;
 }
 
 section {
   padding: 50px;
 }
 
+$top-padding: 135px;
+
 #top {
-  padding-top: 100px;
+  @extend %white-bg;
+  padding-top: 60px + $top-padding;
+  padding-bottom: $top-padding;
+}
+
+#about {
+  @extend %white-bg;
 }
 
 .profile-photo {

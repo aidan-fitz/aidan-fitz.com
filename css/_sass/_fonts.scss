@@ -1,0 +1,20 @@
+// Change this Google Fonts import as necessary
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+@font-face {
+  font-family: "D-DIN";
+  src: url('/fonts/D-DIN.woff2') format('woff2'),
+       url('/fonts/D-DIN.woff') format('woff'),
+       url('/fonts/D-DIN.otf') format('opentype'),
+       url('/fonts/D-DIN.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "D-Din Expanded";
+  src: url('/fonts/D-Din_Expanded.woff2') format('woff2'),
+       url('/fonts/D-DIN_Expanded.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
