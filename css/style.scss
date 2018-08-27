@@ -64,10 +64,12 @@ section {
   padding: 50px;
 }
 
+$top-padding: 135px;
+
 #top {
   @extend %white-bg;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 60px + $top-padding;
+  padding-bottom: $top-padding;
 }
 
 #about {
