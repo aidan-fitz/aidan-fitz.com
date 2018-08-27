@@ -3,8 +3,10 @@
 @import 'bg';
 @import 'fonts';
 
+$chrome-color: #444444;
+
 nav {
-  background-color: black;
+  background-color: $chrome-color;
 }
 
 nav a.nav-link {
@@ -43,6 +45,7 @@ h1, h2 {
 
 .download-resume {
   font-size: 125%;
+  background-color: $chrome-color;
 }
 
 footer {
@@ -53,7 +56,7 @@ footer {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
-  background-color: black;
+  background-color: $chrome-color;
   color: white;
 }
 
