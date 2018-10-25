@@ -9,6 +9,10 @@ $main-bg-color: rgb(249, 231, 129);
 $sidebar-bg-color: rgb(183, 139, 73);
 $sidebar-width: 480px;
 
+body {
+  background-color: $main-bg-color;
+}
+
 #site-sidebar {
   height: 100%;
   width: $sidebar-width; // TODO make this responsive
@@ -25,7 +29,6 @@ main {
   margin-left: $sidebar-width;
   padding: 40px;
   padding-right: 500px;
-  background-color: $main-bg-color;
 }
 
 nav {
