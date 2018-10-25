@@ -4,6 +4,25 @@
 @import 'fonts';
 
 $chrome-color: #444444;
+$sidebar-width: 480px;
+
+#site-sidebar {
+  height: 100%;
+  width: $sidebar-width; // TODO make this responsive
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $chrome-color;
+  overflow-x: hidden; // Disable horizontal scroll
+  padding-top: 20px;
+}
+
+main {
+  margin-left: $sidebar-width;
+  padding: 20px;
+  padding-right: 500px;
+}
 
 nav {
   background-color: $chrome-color;
