@@ -11,6 +11,7 @@ $sidebar-width: 480px;
 
 body {
   background-color: $main-bg-color;
+  font-family: "Open Sans", sans-serif;
 }
 
 #site-sidebar {
@@ -23,6 +24,10 @@ body {
   background-color: $sidebar-bg-color;
   overflow-x: hidden; // Disable horizontal scroll
   padding: 40px;
+}
+
+#site-title {
+  font-family: "Pacifico";
 }
 
 main {
@@ -42,15 +47,6 @@ nav a.nav-link {
 
 nav a.nav-link:active {
   text-decoration: underline;
-}
-
-body {
-  @extend %white-bg;
-  font-family: "D-DIN Expanded", sans-serif; // play around with this
-}
-
-h1, h2 {
-  font-family: "Montserrat", sans-serif;
 }
 
 .social {
