@@ -5,7 +5,15 @@ title: About Me
 
 # About Me
 
-I am a software engineer, aspiring social entrepreneur, and designer from New York City. I currently attend Cornell University for computer science and previously attended Stuyvesant High School. My technical interests include functional programming (OCaml is my favorite programming language), artificial intelligence, web development, design methods, and technology ethics.
+```ocaml
+match interests with
+  | CompSci -> "yup!"
+  | InfoSci -> "hell yeah!"
+  | Ethics  -> "of course!"
+  | _       -> "pretty much everything, yeah"
+```
+
+I am a software engineer, aspiring social entrepreneur, and designer from New York City. I currently attend Cornell University for computer science and previously attended Stuyvesant High School. My technical interests include functional programming (OCaml is my favorite programming language), artificial intelligence, web development, human&ndash;computer interaction, design methods, and technology ethics.
 
 I am an active member of the technology community and care deeply about giving back to the community and the world at large. I’m a veteran hackathon participant, mentor, and organizer - having recently won Most Innovative Hack at the Cornell Fintech Hackathon - and I have been involved in several organizations in the Computing and Information Science community at Cornell. I also contribute to several open source projects, including Internet-in-a-Box (IIAB) and Lokole.
 

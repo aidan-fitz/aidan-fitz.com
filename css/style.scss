@@ -2,6 +2,7 @@
 ---
 @import 'bg';
 @import 'fonts';
+@import 'rouge';
 
 // Sidebar styles
 
@@ -36,6 +37,11 @@ main {
   margin-left: $sidebar-width;
   padding: 40px;
   padding-right: 500px;
+}
+
+code, pre {
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.9em;
 }
 
 nav {
