@@ -25,7 +25,8 @@ main {
 }
 
 nav {
-  background-color: $chrome-color;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 nav a.nav-link {
@@ -65,18 +66,6 @@ h1, h2 {
 .download-resume {
   font-size: 125%;
   background-color: $chrome-color;
-}
-
-footer {
-/*  position: absolute;
-  bottom: 0; */
-  width: 100%;
-  margin-top: 60px;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-  background-color: $chrome-color;
-  color: white;
 }
 
 section {
