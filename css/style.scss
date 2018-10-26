@@ -2,28 +2,72 @@
 ---
 @import 'bg';
 @import 'fonts';
+@import 'rouge';
 
-$chrome-color: #444444;
+// Sidebar styles
 
-nav {
-  background-color: $chrome-color;
-}
-
-nav a.nav-link {
-  color: white;
-}
-
-nav a.nav-link:active {
-  text-decoration: underline;
-}
+$main-bg-color: rgb(249, 231, 129);
+$sidebar-bg-color: rgb(183, 139, 73);
+$sidebar-width: 480px;
 
 body {
-  @extend %white-bg;
-  font-family: "D-DIN Expanded", sans-serif; // play around with this
+  background-color: $main-bg-color;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.45;
 }
 
-h1, h2 {
-  font-family: "Montserrat", sans-serif;
+#site-sidebar {
+  height: 100%;
+  width: $sidebar-width; // TODO make this responsive
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $sidebar-bg-color;
+  overflow-x: hidden; // Disable horizontal scroll
+  padding: 40px;
+
+  a {
+    color: rgb(255, 244, 186);
+    text-decoration: none;
+  }
+
+  a:active, a:hover, a:focus {
+    color: white;
+  }
+}
+
+#site-title {
+  font-family: "Pacifico";
+}
+
+main {
+  margin-left: $sidebar-width;
+  padding: 40px;
+  padding-right: 500px;
+}
+
+code, pre {
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.9em;
+}
+
+nav {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#site-links {
+  list-style: none;
+  font-size: 110%;
+  line-height: 1.65;
+
+  // For accessibility on Safari; see:
+  // https://developer.mozilla.org/en-US/docs/Web/CSS/list-style#Accessibility_concerns
+  li a::before {
+    content: "\200B";
+  }
 }
 
 .social {
@@ -45,35 +89,7 @@ h1, h2 {
 
 .download-resume {
   font-size: 125%;
-  background-color: $chrome-color;
-}
-
-footer {
-/*  position: absolute;
-  bottom: 0; */
-  width: 100%;
-  margin-top: 60px;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
-  background-color: $chrome-color;
-  color: white;
-}
-
-section {
-  padding: 50px;
-}
-
-$top-padding: 135px;
-
-#top {
-  @extend %white-bg;
-  padding-top: 60px + $top-padding;
-  padding-bottom: $top-padding;
-}
-
-#about {
-  @extend %white-bg;
+  background-color: $sidebar-bg-color;
 }
 
 .profile-photo {

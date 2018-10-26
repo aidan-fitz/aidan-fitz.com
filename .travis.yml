@@ -1,0 +1,10 @@
+---
+language: ruby
+ruby: "2.5.1"
+
+install:
+  - bundle install
+
+script:
+  - bundle exec jekyll doctor --trace
+  - bundle exec jekyll build --verbose --trace
