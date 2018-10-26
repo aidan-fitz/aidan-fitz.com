@@ -9,7 +9,7 @@ title: Notices
 
 &copy; 2018 Aidan Fitzgerald
 
-The source code for this website is available [on GitHub](https://github.com/aidan-fitz/aidan-fitz.com). You may fork, modify, or run the codebase on a private web server for experimental and testing purposes, but you may not deploy it publicly. In the future, I plan to publish the site theme under an open license, and you will be allowed to use that on a website of your own. I accept pull requests on the repository, but by contributing a pull request, you agree that we will jointly own the copyright.
+The source code for this website is available [on GitHub](https://github.com/aidan-fitz/aidan-fitz.com). You may fork, modify, or run the codebase on a private web server for experimental and testing purposes, but you may not deploy it publicly. In the future, I plan to publish the site theme under an open license, and you will be allowed to use that on a website of your own. I accept pull requests on the repository; by making one, you assign to me joint ownership of the copyright to your contributions.
 
 ## Privacy
 
