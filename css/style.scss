@@ -49,12 +49,18 @@ nav {
   padding-bottom: 40px;
 }
 
-nav a.nav-link {
-  color: white;
-}
+#site-links {
+  list-style: none;
+  font-size: 110%;
+  line-height: 1.65;
 
-nav a.nav-link:active {
-  text-decoration: underline;
+  a {
+    color: white;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
 }
 
 .social {
