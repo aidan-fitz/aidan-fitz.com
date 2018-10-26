@@ -79,22 +79,6 @@ nav a.nav-link:active {
   background-color: $sidebar-bg-color;
 }
 
-section {
-  padding: 50px;
-}
-
-$top-padding: 135px;
-
-#top {
-  @extend %white-bg;
-  padding-top: 60px + $top-padding;
-  padding-bottom: $top-padding;
-}
-
-#about {
-  @extend %white-bg;
-}
-
 .profile-photo {
   // TODO figure out RubyGems Bootstrap so we can import:
   // .img-thumbnail .rounded-circle .mx-auto .d-block
