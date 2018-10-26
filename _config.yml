@@ -13,7 +13,7 @@ copyright:
   author: Aidan Fitzgerald
 
 sass:
-    sass_dir: css/_sass
+  sass_dir: css/_sass
 
 plugins:
   - jekyll-sitemap
