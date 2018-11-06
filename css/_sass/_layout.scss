@@ -5,6 +5,7 @@ $sidebar-bg-color: rgb(183, 139, 73);
 $sidebar-width: 480px;
 
 body {
+  @include make-container();
   background-color: $main-bg-color;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
