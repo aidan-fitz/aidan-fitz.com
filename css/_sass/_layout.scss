@@ -6,6 +6,7 @@ $sidebar-width: 480px;
 
 body {
   @include make-container();
+  @include make-row();
   background-color: $main-bg-color;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -13,12 +14,13 @@ body {
 }
 
 #site-sidebar {
-  height: 100%;
-  width: $sidebar-width; // TODO make this responsive
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
+  @include make-col(3);
+  height: 100vh;
+  // width: $sidebar-width; // TODO make this responsive
+  // position: fixed;
+  // z-index: 1;
+  // top: 0;
+  // left: 0;
   background-color: $sidebar-bg-color;
   overflow-x: hidden; // Disable horizontal scroll
   padding: 40px;
@@ -38,7 +40,8 @@ body {
 }
 
 main {
-  margin-left: $sidebar-width;
-  margin-right: $sidebar-width;
+  @include make-col(6);
+  // margin-left: $sidebar-width;
+  // margin-right: $sidebar-width;
   padding: 40px;
 }

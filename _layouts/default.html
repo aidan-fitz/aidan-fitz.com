@@ -2,10 +2,12 @@
 <html>
   {% include head.html %}
   <body data-spy="scroll" data-target="#navbarCollapse">
-    {% include sidebar.html %}
+    <div class="row">
+      {% include sidebar.html %}
 
-    <main>
-      {{ content }}
-    </main>
+      <main>
+        {{ content }}
+      </main>
+    </div>
   </body>
 </html>
