@@ -17,3 +17,4 @@ sass:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-assets
