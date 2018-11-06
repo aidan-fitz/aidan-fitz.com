@@ -1,0 +1,41 @@
+$main-bg-color: rgb(249, 231, 129);
+$sidebar-bg-color: rgb(183, 139, 73);
+$sidebar-width: 480px;
+
+body {
+  background-color: $main-bg-color;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+#site-sidebar {
+  height: 100%;
+  width: $sidebar-width; // TODO make this responsive
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $sidebar-bg-color;
+  overflow-x: hidden; // Disable horizontal scroll
+  padding: 40px;
+
+  a {
+    color: rgb(255, 244, 186);
+    text-decoration: none;
+  }
+
+  a:active, a:hover, a:focus {
+    color: white;
+  }
+}
+
+#site-title {
+  font-family: "Pacifico";
+}
+
+main {
+  margin-left: $sidebar-width;
+  margin-right: $sidebar-width;
+  padding: 40px;
+}
