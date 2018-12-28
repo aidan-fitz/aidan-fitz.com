@@ -6,6 +6,5 @@ install:
   - bundle install
 
 script:
-  # failing, see https://github.com/jekyll/jekyll/issues/7340
-  - bundle exec jekyll doctor --trace || true
+  - bundle exec jekyll doctor --trace
   - bundle exec jekyll build --verbose --trace
