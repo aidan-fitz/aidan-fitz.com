@@ -30,6 +30,26 @@ body {
   }
 }
 
+nav {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#site-links {
+  list-style: none;
+  font-size: 110%;
+  line-height: 1.65;
+
+  //margin-block-start: 0px;
+  padding-inline-start: 0px;
+
+  // For accessibility on Safari; see:
+  // https://developer.mozilla.org/en-US/docs/Web/CSS/list-style#Accessibility_concerns
+  li a::before {
+    content: "\200B";
+  }
+}
+
 footer {
   position: absolute;
   bottom: 40px;
